@@ -1,0 +1,10 @@
+{
+    "name": "Pomodoro Timer",
+    "short_name": "PomoTimer",
+    "theme_color": "rgb(219,82,77)",
+    "background_color": "rgb(219,82,77)",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/"
+}
