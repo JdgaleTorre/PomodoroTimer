@@ -173,7 +173,7 @@ export default function Home() {
       </Head>
       <div className={styles.header}>
         <Image
-          src="/tile70x70.png"
+          src="/images/tile70x70.png"
           alt="Picture of the author"
           width={72}
           height={32}
