@@ -142,19 +142,11 @@ export default function Home() {
         <meta name="keywords" content="Keywords" />
 
         <link rel="manifest" href="/manifest.json" />
-        <link
-          href="/favicon-16x16.png"
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-        />
-        <link
-          href="/favicon-32x32.png"
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-        />
-        <link rel="apple-touch-icon" href="/apple-icon.png"></link>
+        <link rel="icon" type="image/png" href="/iconx/favicon-16x16.png" sizes="16x16"/>
+        <link rel="icon" type="image/png" href="/iconx/favicon-32x32.png" sizes="32x32"/>
+        <link rel="icon" type="image/png" href="/iconx/android-192x192.png" sizes="192x192"/>
+        <link rel="apple-touch-icon" href="/iconx/apple-touch-icon-180x180.png" sizes="180x180"/>
+        <meta name="msapplication-config" content="/iconx/browserconfig.xml"></meta>
         <meta name="theme-color" content="#317EFB" />
       </Head>
       <div className={styles.header}>
