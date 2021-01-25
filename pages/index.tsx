@@ -104,6 +104,10 @@ export default function Home() {
 
   const SetTime = (setStep: stepInterface) => {
     const { mm, id } = setStep;
+    if(initialized) {
+      clearInterval(interval)
+      setState((prevState) => ({ ...prevState, initialized: false, interval: undefined }));
+    }
     setState((prevState) => ({ ...prevState, mm: mm, ss: 0, step: id }));
     document.getElementById("time").innerHTML =
       mm > 10 ? mm.toString() + ":00" : "0" + mm.toString() + ":00";
